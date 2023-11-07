@@ -16,4 +16,4 @@ jobs:
       - name: Run GitHub Action for ORT
         uses: oss-review-toolkit/ort-ci-github-action@v1
         with:
-          ort-cli-args: '-P ort.forceOverwrite=true --stacktrace'
+          ort-cli-args: '-P ort.forceOverwrite=true -P ort.enableRepositoryPackageCurations=true --stacktrace'

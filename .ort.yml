@@ -1,5 +1,7 @@
 ---
-curations:  
+curations:
+  packages:
   - id: "PyPI::numpy:1.26.1"
-    comment: "The https://github.com/numpy/numpy/blob/v1.26.1/LICENSE.txt, as a permissive license similar to the BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the copyright holder or its contributors to promote derived products without written consent."
-    concluded_license: "BSD-3-Clause"
+    curations:
+      comment: "The https://github.com/numpy/numpy/blob/v1.26.1/LICENSE.txt, as a permissive license similar to the BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the copyright holder or its contributors to promote derived products without written consent."
+      concluded_license: "BSD-3-Clause"
